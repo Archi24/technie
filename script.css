@@ -69,6 +69,13 @@ h2{
     height:7%;
     font-weight:300;
 }
+@media(min-height:1500px)and(max-width:800px)
+{
+    .btn{
+        width:8%;
+        height:8%;
+    }
+}
 .btn:hover{
     background: firebrick;
     cursor:pointer;

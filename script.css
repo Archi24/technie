@@ -7,6 +7,12 @@
 body{
     background-image: url(maps.png);
 }
+@media only screen and(max-width:800px)
+    {
+        body{
+            background-image:url(maps.png);
+        }
+}
 .map{
     width:70%;
     position:absolute;
